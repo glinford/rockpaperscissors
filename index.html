@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper, Scissors - Built in JS</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body ng-app="app" ng-controller="RPSCtrl" ng-cloak>
+    <h1>Rock, Paper, Scissors - Built in JS</h1>
+
+    <div class="scores">
+      <h2>You vs Computer</h2>
+      <table>
+        <tr>
+          <td>{{player}}</td>
+          <td>{{computer}}</td>
+        </tr>
+        <tr>
+          <th>you</th>
+          <th>computer</th>
+        </tr>
+      </table>
+    </div>
+
+    <p>Pick an option ...</p>
+
+    <button ng-click="playRock()">rock</button>
+    <button ng-click="playPaper()">paper</button>
+    <button ng-click="playScissors()">scissors</button>
+
+    <div ng-show="result"> {{result}} </div>
+
+    <script src='bower_components/angular/angular.js'></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/rps.js"></script>
+  </body>
+</html>

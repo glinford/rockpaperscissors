@@ -1,0 +1,40 @@
+* {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.scores {
+  width: 400px;
+  margin: auto;
+}
+.scores h2 {
+  margin: 0;
+  padding: 10px;
+}
+.scores table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scores th, .scores td {
+  text-align: center;
+}
+.scores td {
+  font-size: 26px;
+  padding: 0 20px;
+}
+button {
+  border: 1px solid white;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:active {
+  background: grey;
+  color: white;
+}
+button:focus {
+  outline: none;
+}

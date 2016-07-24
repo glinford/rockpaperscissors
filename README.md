@@ -1,2 +1,1 @@
-# rockpaperscissors
-Rock Paper Scissors game built in Javascript
+# Rock, Paper, or Scissors

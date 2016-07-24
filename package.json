@@ -1,0 +1,22 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors built in JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glinford/rockpaperscissors.git"
+  },
+  "author": "glinford",
+  "bugs": {
+    "url": "https://github.com/glinford/rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/glinford/rockpaperscissors#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.2.0"
+  }
+}
