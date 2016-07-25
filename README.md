@@ -1,6 +1,6 @@
 ## Ads Generator ##
 
-** Core Dependencies**
+**Core Dependencies**
 
  - [Node.js](https://nodejs.org/en/download/) | v5.7.0
  - [Bower](https://bower.io/#install-bower) | v1.7.9
